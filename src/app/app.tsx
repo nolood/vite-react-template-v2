@@ -1,12 +1,13 @@
-import { Button } from "~/shared/ui/button.tsx";
 import { type FC } from "react";
-import "./app/styles/globals.css";
+import "./styles/globals.css";
 import { ThemeProvider } from "~/app/providers";
+import { RouterProvider } from "react-router-dom";
+import { router } from "~/shared/router/router";
 
 const App: FC = () => {
   return (
     <ThemeProvider defaultTheme={"dark"}>
-      <Button>dadas</Button>
+      <RouterProvider router={router} />
     </ThemeProvider>
   );
 };

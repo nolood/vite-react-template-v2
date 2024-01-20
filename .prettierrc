@@ -1,3 +1,11 @@
 {
-  "singleQuote": false
+  "semi": true,
+  "singleQuote": false,
+  "overrides": [{
+    "files": "*.{ts,tsx}",
+    "options": {
+      "singleQuote": false,
+      "trailingComma": "all"
+    }
+  }]
 }
