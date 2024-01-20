@@ -1,5 +1,11 @@
+import { Button } from "~/shared/ui/kit/ui/button";
+
 const App = () => {
-  return <div>adada</div>;
+  return (
+    <div>
+      <Button>dasdas</Button>
+    </div>
+  );
 };
 
 export default App;
