@@ -5,6 +5,7 @@
 - Typescript
 - Shadcnui
 - react-router-dom
+- tailwindcss
 
 # Config
 - eslint
