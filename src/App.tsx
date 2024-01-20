@@ -1,9 +1,11 @@
 import { Button } from "~/shared/ui/kit/ui/button";
+import { type FC } from "react";
+import "./app/styles/globals.css";
 
-const App = () => {
+const App: FC = () => {
   return (
     <div>
-      <Button>dasdas</Button>
+      <Button>dsdas</Button>
     </div>
   );
 };
