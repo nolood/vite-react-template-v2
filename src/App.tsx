@@ -1,12 +1,13 @@
 import { Button } from "~/shared/ui/kit/ui/button";
 import { type FC } from "react";
 import "./app/styles/globals.css";
+import { ThemeProvider } from "~/app/providers";
 
 const App: FC = () => {
   return (
-    <div>
-      <Button>dsdasdasdas</Button>
-    </div>
+    <ThemeProvider defaultTheme={"dark"}>
+      <Button>dadas</Button>
+    </ThemeProvider>
   );
 };
 
