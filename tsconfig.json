@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "esModuleInterop": true,
     "baseUrl": ".",
     "paths": {
       "~/*": ["./src/*"]
@@ -24,6 +25,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "tailwind.config.js", "commitlint.config.js"],
+  "include": ["src", "tailwind.config.js", "commitlint.config.cjs",
+    "jest.config.ts"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
