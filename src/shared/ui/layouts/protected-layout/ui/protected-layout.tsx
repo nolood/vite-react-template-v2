@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 const ProtectedLayout: FC = () => {
   return (
     <div>
-      ProtectedLayoutd
+      ProtectedLayout
       <Outlet />
     </div>
   );
